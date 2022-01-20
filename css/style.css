@@ -1,0 +1,146 @@
+html, body {
+    height: 99%;
+    background: #F3F5FC;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    flex: 1 0 auto;
+}
+
+.logos {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 40px;
+}
+
+.text-area {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: auto;
+    border: none;
+}
+
+.input-text {
+    position: absolute;
+    left: 20px;
+    border: none;
+    background-color:  #F3F5FC ;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.btns{
+    position: absolute;
+    top: 485px;
+    left: 300px;
+
+}
+
+.bton-crip {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    
+}
+
+.bton-descrip {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background: lightgray;
+    background-color: #D8DFE8;
+    border: 0.1px solid;
+}
+
+.text-result {
+    position: absolute;
+    align-items: center;
+    left: 88px;
+    top: 300px;
+}
+
+.input-result {
+    border: none;
+    font-size: 16px;
+}
+
+.bton-cp {
+    position: absolute;
+    top: 380px;
+    
+}
+
+.bton-copy {
+    margin-left: 93px;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+
+.lado-direito{
+    position: absolute;
+    width: 340px;
+    height: 444px;
+    top: 100px;
+    left: 800px;
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px -8px;
+}
+
+.img-result {
+    position: absolute ;
+    top: 5px;
+    left: 18px;
+    width: 300px;
+    
+}
+
+.rodape {
+    padding: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.info-icon {
+    position: absolute;
+    top: 465px;
+    left: 320px;
+    align-items: center;
+    display: flex;
+}
+
+.info-img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px
+}
+
+.info-size {
+    font-size: 13px;
+}
